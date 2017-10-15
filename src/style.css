@@ -1,0 +1,15 @@
+.input-group {
+  margin: 20px auto;
+}
+
+button, .linktag {
+  margin-right: 20px;
+}
+
+.page-title {
+  margin-top: 25px;
+}
+
+.flexbox {
+  display: flex;
+}

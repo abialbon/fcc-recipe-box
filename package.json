@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
+    "build": "webpack -d && cp src/index.html dist/index.html && cp src/style.css dist/style.css && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
     "build:prod": "webpack -p && cp src/index.html dist/index.html"
   },
   "keywords": [
@@ -14,12 +14,10 @@
   "author": "Abialbon Paul",
   "license": "MIT",
   "dependencies": {
+    "localforage": "^1.5.2",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
-    "redux": "^3.7.2",
-    "redux-logger": "^3.0.6"
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
