@@ -2,14 +2,21 @@
   margin: 20px auto;
 }
 
+.card {
+  margin-bottom: 20px;
+}
+
 button, .linktag {
   margin-right: 20px;
+  margin-top: 4px;
 }
 
 .page-title {
   margin-top: 25px;
 }
 
-.flexbox {
+.centerbox {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }

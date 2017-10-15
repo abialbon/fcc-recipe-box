@@ -17,7 +17,7 @@ export default class Grid extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 flexbox">
+          <div className="col-12">
             { recipesToRender }
           </div>
         </div>

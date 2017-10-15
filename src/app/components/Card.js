@@ -12,7 +12,7 @@ export default class Card extends Component {
 
   render() {
     return (
-      <div className="card" style={ {width: '20rem', margin: '10px' } }>
+      <div className="card" style={ {width: '100%' } }>
         <img className="card-img-top" src={ this.props.recipe.image } />
         <div className="card-body">
           <Link to={ '/view/' + this.props.index } className="card-title">{ this.props.recipe.title }</Link>
